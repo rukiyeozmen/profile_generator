@@ -12,8 +12,7 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
         rl.question("What's your favourite thing to eat for that meal? ", (food) => {
           rl.question("Which sport is your absolute favourite? ", (sport) => {
             rl.question("What is your superpower? In a few words, tell us what you are amazing at! ", (superpower) => {
-              console.log(`Thank you for answering the questions, ${name}!\n
-              You enjoy: ${activity} while listening to: ${music}.\nFavourite meal: ${meal}, and you love to eat ${food}\nYour favourite sport: ${sport}, your superpower: ${superpower}.`);;
+              console.log(`Thank you for answering the questions, ${name}!\nYou enjoy: ${activity}\nListen to: ${music}.\nFavourite meal: ${meal}\nFavourite food: ${food}\nYour favourite sport: ${sport}\nsuperpower: ${superpower}.`);;
               rl.close();
             });
           });
